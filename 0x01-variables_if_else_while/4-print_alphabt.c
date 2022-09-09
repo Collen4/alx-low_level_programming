@@ -4,7 +4,7 @@
 
 /**
  *main - Prints the alphabet/letters without q and e.
- * 
+ *
  *Return: Always 0 (Success)
  */
 
