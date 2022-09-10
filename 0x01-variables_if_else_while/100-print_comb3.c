@@ -1,39 +1,38 @@
 #include <stdio.h>
 
 /**
- *main - Prints numbers between 00 - 99
+ * main - Prints numbers between 00 - 89
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	 int i, e;
+	int i, e;
 
-	 e = 48;
+	i = 48;
+	e = 48;
 
-	 while (e < 58)
-	 {
-		 i = 48;
-
-		 while (i < 58)
-		 {
-			 if (e != i && e < i)
-			 {
-				 putchar(e);
-				 putchar(i);
-
+	while (e < 58)
+	{
+		i = 48;
+		while (i < 58)
+		{
+			if (e != i && e < i)
+			{
+				putchar(e);
+				putchar(i);
 				if (i == 57 && e == 56)
-			 	{	
-				 	break;
-			 	}
-			 	putchar(',');
-			 	putchar(' ');
-			 }
-			 i++;
-		 }
-		 e++;
-	 }
-	 putchar('\n');
-	 return (0);
- }
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		e++;
+	}
+	putchar('\n');
+	return (0);
+}
