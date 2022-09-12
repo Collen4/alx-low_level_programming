@@ -3,7 +3,7 @@
 /**
  * main - Prints numbers between 00 to 99.
  *
- * Return: Always 0 (Success)
+ * Return: ALways 0 (Success)
  */
 
 int main(void)
@@ -32,9 +32,9 @@ int main(void)
 			}
 			i++;
 		}
-		e++;
-		g++;
-		h++;
+			e++;
+			g++;
+			h++;
 	}
 	putchar('\n');
 	return (0);
