@@ -11,7 +11,7 @@ int main(void)
 	int i, g;
 
 	for (i = 0; i < 98; i++)
-	{i
+	{
 		for (g = 0; g < 97; g++)
 		{
 			if (i < g)
