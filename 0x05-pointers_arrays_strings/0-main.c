@@ -5,7 +5,11 @@
  *
  * Return: Always 0.
  */
+<<<<<<< HEAD
 int main (void)
+=======
+int main(void)
+>>>>>>> master
 {
 	int n;
 
