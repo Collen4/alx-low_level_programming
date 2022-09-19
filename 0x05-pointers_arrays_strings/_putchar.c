@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #include <unistd.h>
-=======
-#include  <unistd.h>
->>>>>>> master
 
 /**
  * _putchar - writes the character c to stdout
