@@ -1,8 +1,5 @@
 #include "main.h"
-<<<<<<< HEAD
 #include <stdio.h>
-=======
->>>>>>> master
 
 /**
  * main - check the code.
