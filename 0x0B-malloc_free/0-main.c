@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * simple_point_buffer - prints buffer in hexa
+ * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
  * @size: the size of the memory to print
  *
  * Return: Nothing.
  */
-void simple_point_buffer(char *buffer, unsigned int size)
+void simple_print_buffer(char *buffer, unsigned int size)
 {
 	unsigned int i;
 
