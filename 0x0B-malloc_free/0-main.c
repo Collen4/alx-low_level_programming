@@ -5,7 +5,11 @@
  * @buffer: the address of memory to print
  * @size: the size of the memory to print
  *
+<<<<<<< HEAD
  * Return: nothng.
+=======
+ * Return: Nothing.
+>>>>>>> master
  */
 void simple_print_buffer(char *buffer, unsigned int size)
 {
@@ -29,7 +33,11 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 
 /**
+<<<<<<< HEAD
  * main - check the code.
+=======
+ * main - check the code for ALX School student.
+>>>>>>> master
  *
  * Return: Always 0.
  */
@@ -41,7 +49,11 @@ int main(void)
 	if (buffer == NULL)
 	{
 		printf("failed to allocate memory\n");
+<<<<<<< HEAD
 		return (0);
+=======
+		return (1);
+>>>>>>> master
 	}
 	simple_print_buffer(buffer, 98);
 	free(buffer);

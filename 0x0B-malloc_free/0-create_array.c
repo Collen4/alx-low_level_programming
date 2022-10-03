@@ -5,7 +5,11 @@
  * @size: size of the array.
  * @c: storaged char
  *
+<<<<<<< HEAD
  * Return: pointer of an array of chars.
+=======
+ * Return: pointer of an array of chars
+>>>>>>> master
  */
 char *create_array(unsigned int size, char c)
 {
