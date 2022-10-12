@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-	_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t - Kevin Mitnick");
+	int n;
+
+	n = _strlen_recursion("Corbin Coleman");
+	printf("%d\n", n);
 	return (0);
 }
